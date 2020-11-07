@@ -1,0 +1,1 @@
+https://slack.com/intl/pt-br/connect
