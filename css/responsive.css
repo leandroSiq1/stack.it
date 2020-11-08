@@ -45,12 +45,6 @@
 
         padding-bottom: 3rem;
     }
-
-    .text-content h3 {
-        font-size: 1.8rem;
-        font-weight: normal;
-        text-align: justify;
-    }
 }
 
 @media (max-width: 650px) {
