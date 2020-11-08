@@ -29,7 +29,7 @@ div.border-bottom-header {
 
 header {
     width: 100%;
-    height: 8rem;
+    height: 7rem;
 
     display: flex;
     align-items: center;
@@ -126,6 +126,8 @@ section.content {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    padding-bottom: 7rem;
 }
 
 .text-content {
@@ -185,4 +187,51 @@ section.content {
     cursor: pointer;
 }   
 
-/* forward responsive */ 
+.box-content {
+    width: 100%;
+    height: 55rem;
+
+    background: #f4ede4;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-content > h1 {
+    font-size: 5rem;
+    font-weight: 800;
+    padding-bottom: 1rem;
+}
+
+.box-content > p {
+    font-size: 1.9rem;
+}
+
+.box-content > span {
+    padding-top: 5rem;
+    font-size: 1.6rem;
+    color: #696969;
+}
+
+.box-content .box-grid-content {
+    width: 80%;
+    height: 20rem;
+
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 29rem;
+}
+
+.box-content .box-grid-content h1 {
+    font-size: 8rem;
+}
+
+.box-content .box-grid-content p {
+    font-size: 1.5rem;
+    text-align: left;
+    font-weight: 700;
+}
