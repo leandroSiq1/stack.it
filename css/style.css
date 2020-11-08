@@ -111,3 +111,71 @@ section.content {
 
     background: white;
 }
+
+.container-content {
+    width: clamp(75%, 80%, 90%);
+    height: 100%;
+
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-content {
+    width: 50%;
+    height: 100%;
+
+    padding: 4rem 0;
+}
+
+.text-content p {
+    font-size: 1.4rem;
+
+    padding-bottom: 3rem;
+}
+
+.text-content h2 {
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+
+    padding-bottom: 2rem;
+}
+
+.text-content h3 {
+    font-size: 1.7rem;
+    font-weight: normal;
+    text-align: justify;
+
+    max-width: 40rem;
+}
+
+.text-content button {
+    display: block;
+
+    width: 37rem;
+    height: 5.5rem;
+
+    border-radius: .5rem;
+    border: 1px solid #ebeaeb;
+}
+
+.text-content button.btn-1 {
+    margin: 2rem 0 1rem 0;
+
+    color: #fff;
+    font-weight: 800;
+    background: #611f69;
+
+    cursor: pointer;
+}
+
+.text-content button.btn-2 {
+    color: #611f69;
+    font-weight: 800;
+    background: none;
+    border: 1px solid #611f69;
+
+    cursor: pointer;
+}   
