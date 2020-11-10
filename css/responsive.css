@@ -11,6 +11,79 @@
     header div.buttons {
         display: none;
     }
+
+    .box-content {
+        width: 100%;
+        height: 55rem;
+    
+        background: #f4ede4;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .box-content > h1 {
+        font-size: 3rem;
+        font-weight: 800;
+        padding-bottom: 1rem;
+    }
+    
+    .box-content > p {
+        font-size: 1.6rem;
+    }
+    
+    .box-content > span {
+        padding-top: 5rem;
+        font-size: 1.3rem;
+        color: #696969;
+    }
+    
+    .box-content .box-grid-content {
+        width: 90%;
+    
+        margin: 0 auto;
+    
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 20rem;
+    }
+    
+    .box-content .box-grid-content h1 {
+        font-size: 6rem;
+    }
+    
+    .box-content .box-grid-content p {
+        font-size: 1.4rem;
+        text-align: left;
+        font-weight: 700;
+    }
+
+    .container-wraper {
+        width: 90%;
+        padding-bottom: 4rem;
+        margin: 0 auto;
+    
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .container-wraper > img {
+        width: 60%;
+        padding: 8rem 5rem 9rem 0;
+    }
+    
+    .container-wraper main {
+        width: 50%;
+    }
+    
+    .container-wraper main h1 {
+        font-size: 3rem;
+    
+        padding-top: 8rem;
+    }
+    
 }
 
 @media (max-width: 1130px) {
@@ -44,6 +117,142 @@
         line-height: 3.5rem;
 
         padding-bottom: 3rem;
+    }
+
+    .wraper-content {
+        width: 100%;
+
+        background: #fff;
+    }
+
+    .container-wraper {
+        width: 80%;
+        padding-bottom: 4rem;
+        margin: 0 auto;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .container-wraper > img {
+        width: 100%;
+
+        margin: 0 auto;
+        padding: 8rem 5rem 9rem 0;
+    }
+
+    .container-wraper main {
+        width: 100%;
+
+        margin: 0 auto;
+    }
+
+    .container-wraper main h1 {
+        font-size: 5rem;
+
+        padding-top: 4rem;
+    }
+
+    .list-description {
+        width: 100%;
+    }
+
+    .description-1, .description-2, .description-3 {
+        max-width: 50rem;
+        margin-bottom: 2rem;
+
+        position: relative;
+    }
+
+    .description-1 p, .description-2 p, .description-3 p {
+        font-size: 1.8rem;
+        padding: 1rem 0 1rem 3rem;
+    }
+
+    .description-1 img, .description-2 img, .description-3 img {
+        position: absolute;
+        top: 1.3rem;
+        left: .4rem;
+    }
+
+    
+}
+
+@media (max-width: 880px) {
+    .box-content {
+        width: 100%;
+        height: 60rem;
+    
+        background: #f4ede4;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .box-content > h1 {
+        max-width: 80%;
+        font-size: 2rem;
+        font-weight: 800;
+        padding-top: 3rem;
+        padding-bottom: 1rem;
+        text-align: center;
+    }
+    
+    .box-content > p {
+        max-width: 80%;
+        font-size: 1.4rem;
+    }
+    
+    .box-content > span {
+        max-width: 60%;
+
+        position: relative;
+        top: -3rem;
+        font-size: 1.4rem;
+        color: #696969;
+
+        margin: 0 auto;
+        padding-bottom: 2rem;
+    }
+    
+    .box-content .box-grid-content {
+        width: 90%;
+    
+        margin: 0 auto;
+    
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .box-content .box-grid-content h1 {
+        font-size: 4rem;
+    }
+    
+    .box-content .box-grid-content p {
+        font-size: 1.4rem;
+        text-align: left;
+        font-weight: 700;
+    }
+
+    .box-grid-content .grid-1, .box-grid-content .grid-2, .box-grid-content .grid-3 {       
+        margin: 0 auto;
+        padding: 2rem 0 3rem 0;
+        
+        display: flex;
+        align-items: center;
+    }
+
+    .box-grid-content .grid-1 p, .box-grid-content .grid-2 p, .box-grid-content .grid-3 p {
+        max-width: 20rem;
+        padding-left: 2rem;
+    }
+
+    .container-wraper > img {
+        margin: 0 auto;
+        padding: 8rem 5rem 9rem 0;
     }
 }
 
