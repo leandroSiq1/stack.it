@@ -200,7 +200,7 @@ section.content {
 }
 
 .box-content > h1 {
-    font-size: 5rem;
+    font-size: 4.5rem;
     font-weight: 800;
     padding-bottom: 1rem;
 }
@@ -254,8 +254,7 @@ section.content {
 }
 
 .container-wraper > img {
-    padding-top: 8rem;
-    padding-bottom: 9rem;
+    padding: 8rem 5rem 9rem 0;
 }
 
 .container-wraper main {
