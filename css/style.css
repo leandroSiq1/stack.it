@@ -297,7 +297,9 @@ footer {
     align-items: center;
     justify-content: center;
     
-    background: #f4ede4;
+    background: #fff;
+
+    border-top: 1px solid #f4ede4
 }
 
 footer p {
